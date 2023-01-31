@@ -119,7 +119,7 @@ elif app_mode == 'Prediksi' :
     
     #memuat model Random Forest Classifier pada loaded_model, prediksinya 0 atau 1 dalam prediksi (dalam menentukan gagal atau sukses)
     if st.button('Klik untuk Prediksi') :
-        file_ = open("assets/6m-rain.gif", "rb")
+        file_ = open("6m-rain.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
