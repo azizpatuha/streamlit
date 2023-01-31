@@ -124,7 +124,7 @@ elif app_mode == 'Prediksi' :
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
         
-        file = open('assets/green-cola-no.gif', 'rb')
+        file = open('green-cola-no.gif', 'rb')
         contents = file.read()
         data_url_no = base64.b64encode(contents).decode('utf-8')
         file.close()
